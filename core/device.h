@@ -19,8 +19,8 @@ typedef struct device
 	/* Device class */
 	int class_code;
 
-	/* Bus-specific identifiers */
-	list_t identifiers;
+	/* Bus-specific information */
+	void *bus_info;
 
 	/* Parent and child devices */
 	struct device *parent;
