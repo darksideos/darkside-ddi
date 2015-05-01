@@ -9,8 +9,7 @@
 #define DEVICE_SOUND		0x04
 #define DEVICE_INPUT		0x05
 #define DEVICE_BUS			0x06
-#define DEVICE_CONTROLLER	0x07
-#define DEVICE_ADAPTER		0x08
+#define DEVICE_ADAPTER		0x07
 #define DEVICE_OTHER		0xFF
 
 /* Device object */
