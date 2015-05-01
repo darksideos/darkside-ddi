@@ -6,8 +6,6 @@
 #define RESOURCE_MMIO		0x01	/* MMIO registers */
 #define RESOURCE_IRQ		0x02	/* Interrupt object */
 #define RESOURCE_DMA		0x03	/* DMA adapter and address */
-#define RESOURCE_CONFIG		0x04	/* Configuration space */
-#define RESOURCE_BUS		0x05	/* Bus-specific resource */
 
 /* Device resource */
 typedef struct resource
